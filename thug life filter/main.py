@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 from PIL import Image
 
-maskPath = r"C:\Users\asus\Downloads\mask.png"
+maskPath = "your mask path"
 
-harcasPath = r"C:\Users\asus\Downloads\harcass"
+harcasPath = "your harcass path"
 
 faceCascade = cv2.CascadeClassifier(harcasPath)
 
